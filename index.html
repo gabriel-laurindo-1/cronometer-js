@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cronômetro js</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cronômetro web para sua lista de tarefas">
+    <meta name="keywords" content="cronometro, contador, timer">
+    <meta name="author" content="Gabriel Laurindo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="contador">
+                <div class="display">
+                    <div id='hora' class="digito"></div>
+                    <div id="minuto" class="digito"></div>
+                    <div id="segundo" class="digito"></div>
+                </div><!--display-->
+                <div class="controles">
+                    <button id='start' name='start' onclick="start()">Começar</button>
+                    <button id='stop' name='stop' onclick="stop()">Parar</button>
+                    <button id='reset' name='reset' onclick="reset()">Zerar</button>
+                    <button id='save' name='save' onclick="save()">Salvar</button>
+                </div><!--controles-->
+            </div><!--contador-->
+
+        </div><!--container-->
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2020, Desenvolvido por <a href="https://github.com/gabriel-laurindo-1" target="_blank">Gabriel Laurindo</a>.</p>
+    </footer>
+
+    <script src="js/cronometro.js"></script>
+</body>
+</html>
