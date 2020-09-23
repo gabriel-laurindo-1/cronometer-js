@@ -20,20 +20,31 @@
                     <div id="segundo" class="digito"></div>
                 </div><!--display-->
                 <div class="controles">
-                    <button id='start' name='start' onclick="start()">Começar</button>
-                    <button id='stop' name='stop' onclick="stop()">Parar</button>
-                    <button id='reset' name='reset' onclick="reset()">Zerar</button>
-                    <button id='save' name='save' onclick="save()">Salvar</button>
+                    <button id='start' name='Começar' onclick="start()">Começar</button>
+                    <button id='stop' name='Parar' onclick="stop()">Parar</button>
+                    <button id='reset' name='Zerar' onclick="reset()">Zerar</button>
+                    <button id='save' name='Salvar' >Salvar</button>
                 </div><!--controles-->
+                
+                <div class="list"></div><!--list-->
+                
             </div><!--contador-->
-
-        </div><!--container-->
-    </main>
+        </main>
+        
+        
+        <footer>
+            <p>Copyright &copy; 2020, Desenvolvido por <a href="https://github.com/gabriel-laurindo-1" target="_blank">Gabriel Laurindo</a>.</p>
+        </footer>
+    </div><!--container-->
     
-    <footer>
-        <p>Copyright &copy; 2020, Desenvolvido por <a href="https://github.com/gabriel-laurindo-1" target="_blank">Gabriel Laurindo</a>.</p>
-    </footer>
-
+    <template id='template1'>
+        <div class="item">
+            <span></span>
+            <span></span>
+        </div>
+    </template>
+    
     <script src="js/cronometro.js"></script>
+    <script src="js/lista_atividades.js"></script>
 </body>
 </html>
