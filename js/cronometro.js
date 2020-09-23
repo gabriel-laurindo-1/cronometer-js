@@ -3,7 +3,7 @@ const hora = document.getElementById('hora');
 const minuto = document.getElementById('minuto');
 const segundo = document.getElementById('segundo');
 
-const time_base_ms = 1000;
+const time_base_ms = 1;
 var cronometro = 0;
 var mm = 0;
 var ss = 0;
@@ -60,7 +60,3 @@ function timer_counter() {
     else if (mm < 59) { ss = 0; mm += 1; }
     else if (hh < 23) { ss = 0; mm = 0; hh += 1; };
 };
-
-// document.getElementById('save').addEventListener('click', function () {
-//     alert('Save');
-// });
