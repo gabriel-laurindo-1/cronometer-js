@@ -3,7 +3,7 @@ const hora = document.getElementById('hora');
 const minuto = document.getElementById('minuto');
 const segundo = document.getElementById('segundo');
 
-const time_base_ms = 1;
+const time_base_ms = 1000;
 var cronometro = 0;
 var mm = 0;
 var ss = 0;
